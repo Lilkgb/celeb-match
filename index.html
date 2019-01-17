@@ -13,22 +13,35 @@
       <h1>Welcome to <em>Celebrity Matchmaker</em></h1>
       <form id="info">
         <div class="form-group">
-        <p>Please enter your full name:</p>
-        <input id="nm" class="form-control" type="text">
+        <p>Your Name:</p>
+        <input id="nm" class="form-control" type="text" required>
 
-          <p>Please select your gender:</p>
+          <p>Please Select Your Gender:</p>
           <select class="form-control" id="gender">
-            <option>Non binary</option>
             <option>Female</option>
             <option>Male</option>
           </select>
-          <p>Share your age:</p>
-          <input id="age" class="form-control" type="text">
+          <p>What's Your Age:</p>
+          <input id="age" class="form-control" type="text" required>
         </div>
-        <button type="submit" class="btn">Results</button>
+        <button type="submit" id="submitButton" class="btn">Results</button>
       </form>
-      <div id ="results">
-        <p>Congratulations <span class="results"></span>! These are your results!</p>
+      <div id ="congratulations">
+        <h2>Congratulations <span class="congratulations"></span>! You celebrity match is:</h2>
+      </div>
+      <div id="justinBieber">
+        <h1>JUSTIN BIEBER</h1>
+        <img src="img/justinBieber.jpg" alt="picture of justin bieber">
+        <p>You know you <strong>love</strong> it!!</p>
+      </div>
+      <div id="johnCena">
+        <h1>JOHN CENA!</h1>
+        <img src="img/johnCena.jpg" alt="picture of john cena">
+        <p>I mean come on who doesn't love John Cena!</p>
+      </div>
+      <div id="morganFreeman">
+        <h1>Morgan Freeman</h1>
+        <img src="img/morganFreeman.jpg" alt="picture of the famous morgan freeman">
       </div>
   </body>
 </html>

@@ -1,3 +1,30 @@
-#results {
+#congratulations {
+  display: none;
+  text-align: center;
+}
+#submitButton {
+  background-color: black;
+  color: white;
+  border: solid green 2px;
+}
+#justinBieber img {
+  height: 400px;
+}
+#justinBieber {
+  text-align: center;
+  display: none;
+}
+#johnCena img {
+  height: 400px;
+}
+#johnCena {
+  text-align: center;
+  display: none;
+}
+#morganFreeman img {
+  height: 400px;
+}
+#morganFreeman {
+  text-align: center;
   display: none;
 }
